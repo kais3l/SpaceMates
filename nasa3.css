@@ -141,7 +141,8 @@ video {
     border-radius: 10px;
     width: 200px;
     height: 200px;
-    margin: 1rem;
+    /* margin: 1rem; */
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,7 +151,7 @@ video {
     transition: transform 0.3s ease-in-out;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     opacity: 0.6;
-    margin-left: 550px;
+    
     color: #49a5db;
     border-top: 3px solid white;
     border-bottom: 3px solid white;

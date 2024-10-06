@@ -11,6 +11,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: url(https://www.whitecase.com/sites/default/files/images/hero/2023/06/africa-focus-summer-2023-preserving-africas-biodiversity-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Layout styles */
@@ -35,32 +38,12 @@ nav {
     width: 100vw;
 
 } */
-.video-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    overflow: hidden;
-    opacity: 0.7;
-}
 
-.vid {
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 .content {
     position: relative;
     z-index: 1;
-    color: white;
+    color: rgb(30, 255, 0);
     text-align: center;
     padding: 20px;
 }
@@ -76,10 +59,10 @@ main section {
     font-family: 'Times New Roman', Times, serif;
 }
 h2{
-    color: rgb(0, 255, 42);
+    color: green;
 }
 h3{
-    margin-left: 120px;
+    margin: auto;
     height: 40px;
     width: 900px;
 }
